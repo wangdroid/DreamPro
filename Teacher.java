@@ -5,6 +5,17 @@ public class Teacher {
     private int age;
     //性别
     private String sex;
+    //住址
+    private String addr;
+    
+    private void setAddr(String addr) {
+        this.addr = addr;
+    }
+    
+    public String getAddr() {
+        return addr;
+    }
+    
     
     
     private void setName(String name) {
