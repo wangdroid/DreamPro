@@ -7,6 +7,15 @@ public class Teacher {
     private String sex;
     //住址
     private String addr;
+    //身高
+    private String height;
+    
+    private void setHeight(String height) {
+        this.height = height;
+    }
+    
+    public String getHeight() {
+        return height;
     
     private void setAddr(String addr) {
         this.addr = addr;
